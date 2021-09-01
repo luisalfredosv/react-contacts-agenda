@@ -53,7 +53,7 @@ TableContacts.propTypes = {
 	contacts: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			name: PropTypes.string.isRequired,
+			firtName: PropTypes.string.isRequired,
 			lastName: PropTypes.string.isRequired,
 			phoneNumber: PropTypes.string.isRequired,
 		})
